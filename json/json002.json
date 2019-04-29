@@ -1,0 +1,60 @@
+{
+   "songs":[
+   {
+      "id":0,
+      "name":"Promo Web Reactiva",
+      "artist":"Daniel Primo",
+      "song":"audio/promo-webreactiva-02.mp3",
+      "image":"images/WebReactiva.png",
+      "sonido_boton":"audio/button-1.mp3"
+   },
+   {
+      "id":1,
+      "name":"Noticia ultima hora - Radio Cadena Cope",
+      "artist":"Carlos Herrera",
+      "song":"audio/Radio Cope.mp3",
+      "image":"images/Radio_Cope.png",
+      "sonido_boton":"audio/dramatic.swf.mp3"
+   },
+   {
+      "id":2,
+      "name":"Mision Imposible",
+      "artist":"Banda sonora, Danny Elfman",
+      "song":"audio/mision-imposible.mp3",
+      "image":"images/mision-imposible.jpg",
+      "sonido_boton":"audio/inceptionbutton.mp3"
+   },
+   {
+      "id":3,
+      "name":"Liebestraum No.3",
+      "artist":"Franz Liszt",
+      "song":"audio/Franz_Liszt_Liebestraum_No.3.mp3",
+      "image":"images/Franz_Liszt_Liebestraum_No.3.jpg",
+      "sonido_boton":"audio/hallelujahshort.swf.mp3"
+   },
+   {
+      "id":4,
+      "name":"Pantera Rosa",
+      "artist":"Henry Mancini",
+      "song":"audio/pantera_rosa_1.mp3",
+      "image":"images/pantera_rosa_1.jpg",
+      "sonido_boton":"audio/button-2.mp3"
+   },
+   {
+      "id":5,
+      "name":"Slash",
+      "artist":"Other Noises",
+      "song":"http://www.oscargascon.es/wp-content/media/slash.mp3",
+      "image":"images/Slash-Other_Noises.jpg",
+      "sonido_boton":"audio/button-4.mp3"
+   },
+   {
+      "id":6,
+      "name":"Aplausos",
+      "artist":"Publico",
+      "song":"audio/Aplausos.mp3",
+      "image":"images/Aplausos.jpg",
+      "sonido_boton":"audio/button-5.mp3"
+   }
+   ]
+}

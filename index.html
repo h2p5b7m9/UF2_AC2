@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- http://localhost/index.html -->
+<!-- Copia de html202.html pero modificado para hosting -->
+<!-- http://ignaciomacipe.260mb.net/UF2.AC2/index.html -->
+<!-- Programa de radio -->
+<!-- UF2_AC2 -->
+<!-- Metodos y propiedades para crear reproductor de audio y video personalizado: -->
+<!-- Google: w3schools html audio/video -->
+<!-- https://www.w3schools.com/tags/ref_av_dom.asp -->
+<!-- Buscar .css .js -->
+<!-- Buscar .jpg en json002.json ; Cambia imagen al seleccionar cancion -->
+<!-- Buscar .jpg -->
+<!-- Podemos reproducir el video/audio, pausarlo, adelantarlo moverlo hacia delante, retrocederlo moverlo hacia atrás y descargarlo. -->
+<!-- Reproductor de Audio personalizado -->
+
+<html lang="es">
+<head>
+   <link rel='shortcut icon' href='images/radio_cadena_ser.ico'>
+   <meta charset="ISO-8859-1" /> <!-- Acentos ISO-8859-1 vs UTF-8 -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <link rel="stylesheet" href="css/style100.css">
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+   <!-- link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" -->
+   <!-- https://fontawesome.com/?from=io -->
+
+   <title>áPrograma de radio - Cadena Ser</title>
+   <br>
+   <center><h5><font color="#800080">Programa de radio</font></h5></center>
+   <br>
+</head>
+
+<body>
+   <div class="container">
+      <div align="right" class="row1">
+         <div class="col-md-4 col-md-offset-4">
+            <img src="https://github.com/h2p5b7m9/UF2_AC2/blob/master/images/Programa_de_radio.jpg?raw=true" width="200" height="100" class="img1" alt="">
+         </div>
+      </div>
+      <br>
+      <div class="row">
+         <div class="col-md-5"><br>
+            <img id="img-album" class="img-album1" src="" width="300" alt="">
+            <audio id="player" controls="" type="audio/mpeg"> <!-- controls controles standard -->
+         </div>
+         <div class="col-md-6">
+            <div class="text1"><br>
+               <button class="btn btn-success" id="shuffle""><i data-title="Al azar" class="fa fa-random"></i></button> <font color="white"><b> Selecciona una canción al azar y reordena la lista de autoplay </b></font>
+               <br><br><font color="white"><b>Seleccionar una cuña publicitaria o canción con efectos radiofónicos:<b></font><br><br>
+            </div>
+            <ul class="list-group" id="playlist"></ul>
+         </div>
+      </div>
+   </div>
+   <br>
+   <p align="center"><br>
+   <a href="mailto:ignaciomacipe@gmail.com?subject=¿Qué te ha parecido mi aplicación de un programa de música?"> ignaciomacipe@gmail.com</a>
+   </p>
+   <p align="center">&copy; 2019 Ignacio Macipe</p>
+
+   <script src="js/jquery331.min.js"></script> <!-- JQuery tiene que insertarse antes que Bootstrap -->
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <!-- script src="https://use.fontawesome.com/e622d3b53e.js"></script -->
+   <script src="https://use.fontawesome.com/82a8b0caf2.js"></script>
+   <script src="js/j006.js"></script>
+
+</body>
+</html>

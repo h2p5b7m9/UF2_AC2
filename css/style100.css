@@ -1,0 +1,70 @@
+/* Usado por html202.html
+   http:////localhost/html202.html
+   .jpg
+*/
+
+.fa {
+   position: relative;
+}
+
+.fa:hover::after {
+   content: attr(data-title);
+   padding-left: .25em;
+   position: absolute;
+   bottom: 0;
+   margin-bottom: -1em;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: .5em;
+   color: white;
+}
+
+div {
+   color: #800080;
+}
+
+.container {
+   background-image: url("https://github.com/h2p5b7m9/UF2_AC2/blob/master/images/Radio_Ser.jpg?raw=true") ;
+   background-size: cover; /* Resize the background image to cover the entire container */
+   height: 650px;
+   border: 2px solid rgba(0, 0, 255, 0.8);
+}
+
+.img1 {
+   border: 3px solid rgba(0, 0, 255, 0.8);
+}
+
+.row1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	padding-left: 440px;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	/*justify-content: center;*/
+}
+
+.img-album1 {
+   border: 1px solid rgba(0, 0, 255, 0.8);
+}
+.text1 {
+   text-shadow: 2px 2px #FF0000;
+}
+
+
+.list-group-item2 {
+   position: relative;
+   display: block;
+   padding: 0.75rem 1.25rem;
+   margin: 0rem 0rem 0rem 0rem;
+   margin-bottom: -1px;
+   background-color: Turquoise;
+   border: 1px solid rgba(0, 0, 255, 0.8);
+   color: blue;
+}
+
+.list-group-item2:hover{
+   background: MediumSeaGreen;
+   border: 1px solid rgba(0, 0, 255, 0.8);
+}
+
